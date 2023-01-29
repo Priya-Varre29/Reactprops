@@ -47,9 +47,6 @@ function App(){
         console.log("clicked.....");
         setCount(count+1);
     };
-    // const handleChange = (e) =>{
-    //     console.log(e.target.value);
-    // };
     const [ count, setCount] = useState(0);
     return (
         <>
@@ -89,8 +86,8 @@ function App2(){
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Demo title="vfy" name="priya" />);
+ root.render(<Demo title="vfy" name="priya" />);
 root.render(<App/>);
-root.render(<App2/>);
 // root.render(<Student S_name="mdjfhjd" S_Id="23" marks="89"/>);
-export default App2;
+root.render(<App2/>);
+export default App;
